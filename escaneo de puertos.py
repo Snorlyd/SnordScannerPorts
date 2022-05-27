@@ -8,7 +8,7 @@ try:
         socket.setdefaulttimeout(1)
         resultado=s.connect_ex((objetivo,port))
         if resultado ==0:
-            print("El puerto{}está abierto".format(port))
+            print("El puerto {} está abierto".format(port))
         s.close()
     
 except:
